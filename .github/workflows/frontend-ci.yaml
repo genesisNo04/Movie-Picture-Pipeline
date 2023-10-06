@@ -12,7 +12,6 @@ jobs:
     runs-on: ubuntu-latest   # Use the latest Ubuntu runner
     defaults:
       run:
-        shell: bash
         working-directory: frontend
 
     steps:
@@ -43,7 +42,6 @@ jobs:
     runs-on: ubuntu-latest   # Use the latest Ubuntu runner
     defaults:
       run:
-        shell: bash
         working-directory: frontend
 
     steps:
@@ -75,7 +73,6 @@ jobs:
 
     defaults:
       run:
-        shell: bash
         working-directory: frontend
 
     steps:
